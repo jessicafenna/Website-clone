@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+
+body { 
+    background-color: #FFF8F8;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+p {
+    font-family: Fira Mono;
+    font-size: 14px;
+    font-weight: 500;
+ 
+}
+
+.smallfont { 
+    font-family: Fira Mono;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.greytext { 
+    /* color: #8e8382; */
+    color:#515151
+}
+.justifycenter { 
+    text-align: center;
+}
+a{ 
+    font-family: Fira Mono;
+    font-size: 14px;
+    font-weight: 500;
+    
+    
+    /* transition: all 0.5s; */
+}
+a:hover{ 
+    color: #FF4891;
+}
+
+h1{ 
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 48px;
+}
+
+h2{ 
+    font-family: Inter; 
+    font-weight: 400;
+    font-size: 28px;
+}
+
+h3 {
+    font-family: Inter; 
+    font-weight: 400;
+    font-size: 16px;
+}
+
+h4 { 
+    font-family: Inter; 
+    font-weight: 600;
+    font-size: 42px;
+}
+
+.wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0px 100px 10px 100px;
+}
+
+.wrapper1 { 
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0px;
+}
+/* Flex container */
+
+.navbar { 
+    display: flex; 
+    justify-content: space-between; 
+    flex-shrink: 1;
+    /* position: -webkit-sticky; */
+    position: sticky;
+    top: 0;
+    background-color: #FFF8F8;
+
+}
+
+.navlinks { 
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+}
+
+li { 
+    padding: 15px
+}
+
+img { 
+    width: 100%;
+    border-radius: 5px;
+}
+
+.smallimg { 
+    width: 80%;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.pushright { 
+    margin-right: auto;
+}
+
+#logo { 
+    align-self: center;
+    width: 100px;
+    
+}
+
+.flexbox{ 
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.box1 { 
+    padding: 0 50px 0 0;
+    width: 70%;
+    justify-content: flex-start;
+}
+.box2 { 
+    justify-content: flex-end;
+    /* why isn't this working? */
+}
+
+button {
+    background-color: #FF4891; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 50px;
+}
+
+button:hover { 
+    background-color: #DE2871;
+}
+
+form {
+    background-color: #FFF8F8;
+    width: 550px;
+    height: 44px;
+    border-radius: 50px;
+    border: solid black 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+::placeholder {
+    color: #515151;
+    opacity: 0.7; 
+}
+
+input {
+    all: unset;
+    font-size: 16px;
+    font-family: Inter;
+    color:#515151;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+}
+
+.button2 {
+    background-color: #FF4891; 
+    /* border-top: solid black 2px; */
+    color: white;
+    padding: 12.5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 0;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}
+
+.button2:hover { 
+    background-color: #DE2871;
+}
+
+hr { 
+    width: 100%;
+    border-top: 1px solid black;
+}
+
+.flexboxfooter { 
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 40px 0 20px 0;
+} 
+
+.flexboxfooter li{ 
+    justify-content: space-between;
+    list-style: none;
+    padding: 0 30px 0 30px;
+
+}
+
+.flexboxfooter2 { 
+    display: flex;
+}
+
+.flexboxfooter2 li { 
+    list-style: none;
+}
+
+.flexbox3 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+}
+
+.box4 { 
+    justify-self: center;
+    flex-basis: 1;
+    padding: 0 60px 0 0;
+    margin: 0;
+    border: 0;
+}
+
+.box5 { 
+    flex-basis: 2;
+}
+
+.box7 { 
+    padding: 0 20px 0 30px; 
+    background-color: white;
+    width: 80%;
+    margin: 0 50px 0 0;
+}
+
+.box8 { 
+    padding: 0 20px 20px 20px; 
+    background-color: white;
+    width: 80%
+}
+
+.fa {
+    padding: 2px;
+    font-size: 30px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px 0px 0px 0;
+    padding-bottom: 0;
+    border-radius: 50%;
+
+}
+  
+.fa-facebook:hover {
+    background-color: #DE2871;
+    color: white;
+    border-bottom: none;
+
+}
+  
+.fa-facebook {
+    background: black;
+    color: white;
+}
+
+.fa-twitter {
+    /* background: #55ACEE; */
+    color: black;
+    text-align: center;
+}
+
+.fa-dribbble {
+    /* background: #ea4c89; */
+    color: black;
+  }
+
+.fa-instagram {
+    /* background: #125688; */
+    color: black;
+}
+
+/* .socialicons { 
+    padding: 5px;
+    font-size: 30px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 0px 0px 0;
+    padding-bottom: 0;
+    border-radius: 50%;
+
+}
+
+.socialicons:hover { 
+    background-color: #DE2871;
+    color: white; */
+}
